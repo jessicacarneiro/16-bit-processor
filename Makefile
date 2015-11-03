@@ -4,4 +4,4 @@ test:
 	gtkwave $(FILE)_testbench.vcd
 
 clean:
-	rm -f *.vcd *.out
+	rm *.out *.vcd
