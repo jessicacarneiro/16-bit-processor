@@ -1,7 +1,7 @@
 test:
-	iverilog testbench/$(FILE)_testbench.v
+	iverilog testbench/$(file)_testbench.v
 	vvp a.out
-	gtkwave $(FILE)_testbench.vcd
+	gtkwave $(file)_testbench.vcd
 
 clean:
 	rm *.out *.vcd
