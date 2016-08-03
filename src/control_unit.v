@@ -1,7 +1,7 @@
 module control_unit(
 input [1:0] counter,
 input reset,
-input [8:0] inn,
+input [15:0] inn,
 output clear,
 output [1:0] opSelect,
 output immSelect,
