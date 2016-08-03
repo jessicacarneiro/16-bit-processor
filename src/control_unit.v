@@ -75,6 +75,7 @@ always @(counter or reset) begin
 	end // end reset == 1
 
 	else begin
+		clear <= 0;
 		case(counter)
 		2'b00: begin // 1st cycle: instruction identification
 			
