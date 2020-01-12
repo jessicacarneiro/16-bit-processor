@@ -9,7 +9,7 @@ assign out = outReg;
 
 always@(posedge clock)
 begin
-  if(clear==1)
+  if(clear == 1)
     outReg <= 2'b00;
   else
     outReg <= outReg + 1'b1;
